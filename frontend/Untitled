@@ -1,0 +1,5 @@
+cd "C:\Users\ravni\OneDrive\Documents\OneDrive\Desktop\Loading\anuvartan-hackathon\frontend"
+
+npm install -D @types/node
+
+npm run build

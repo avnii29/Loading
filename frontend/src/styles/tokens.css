@@ -1,0 +1,112 @@
+:root {
+  --bg: #f8f5ef;
+  --surface: #fffdfc;
+  --warm: #fff4e8;
+  --terracotta: #e65c24;
+  --terracotta-deep: #c84b20;
+  --amber: #f5a742;
+  --ink: #172033;
+  --brown: #342925;
+  --sage: #7a9b6d;
+  --mint: #e7f5ec;
+  --line: rgba(52, 41, 37, 0.1);
+  --muted: #6b5e56;
+  --danger: #9b2c2c;
+  --danger-soft: #f8e4e0;
+  --ok: #3f6b3a;
+  --ok-soft: #e5f0df;
+  --white: #fffdfc;
+  --shadow: 0 10px 30px rgba(30, 20, 10, 0.05);
+  --shadow-soft: 0 2px 8px rgba(30, 20, 10, 0.04);
+  --shadow-lift: 0 16px 40px rgba(30, 20, 10, 0.08);
+  --shadow-cta: 0 8px 20px rgba(230, 92, 36, 0.22);
+
+  --font-sans: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", "Times New Roman", serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  --nav-w: 256px;
+  --page-max: 1180px;
+  --focus: 2px solid var(--terracotta);
+  --ease: 220ms ease;
+}
+
+[data-theme="DONOR"] {
+  --terracotta: #2f8f5b;
+  --terracotta-deep: #246b46;
+  --warm: #e7f5ec;
+  --bg: #f3f8f4;
+  --amber: #7ab86d;
+  --shadow-cta: 0 8px 20px rgba(47, 143, 91, 0.22);
+  --focus: 2px solid #2f8f5b;
+}
+
+[data-theme="VOLUNTEER"] {
+  --terracotta: #0d9488;
+  --terracotta-deep: #0f766e;
+  --warm: #e6f7f5;
+  --bg: #f1f8f7;
+  --amber: #2dd4bf;
+  --shadow-cta: 0 8px 20px rgba(13, 148, 136, 0.22);
+  --focus: 2px solid #0d9488;
+}
+
+[data-theme="ORGANIZATION"] {
+  --terracotta: #e65c24;
+  --terracotta-deep: #c84b20;
+  --warm: #fff4e8;
+  --bg: #f8f5ef;
+  --amber: #f5a742;
+  --shadow-cta: 0 8px 20px rgba(230, 92, 36, 0.22);
+  --focus: 2px solid #e65c24;
+}
+
+[data-theme="DRIVER"] {
+  --terracotta: #0e7490;
+  --terracotta-deep: #155e75;
+  --warm: #e0f2fe;
+  --bg: #f3f7f9;
+  --amber: #38bdf8;
+  --shadow-cta: 0 8px 20px rgba(14, 116, 144, 0.22);
+  --focus: 2px solid #0e7490;
+}
+
+[data-theme="FARM_OPERATOR"] {
+  --terracotta: #6b8f3c;
+  --terracotta-deep: #4f6c2b;
+  --warm: #eef5e3;
+  --bg: #f5f8ef;
+  --amber: #a3c76a;
+  --shadow-cta: 0 8px 20px rgba(107, 143, 60, 0.22);
+  --focus: 2px solid #6b8f3c;
+}
+
+[data-theme="ADMIN"] {
+  --terracotta: #1f3a5f;
+  --terracotta-deep: #152844;
+  --warm: #e8eef6;
+  --bg: #f4f6f8;
+  --amber: #64748b;
+  --shadow-cta: 0 8px 20px rgba(31, 58, 95, 0.22);
+  --focus: 2px solid #1f3a5f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ease: 1ms linear;
+  }
+}
